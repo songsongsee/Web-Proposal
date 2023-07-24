@@ -1,0 +1,10 @@
+p {
+    color : orangered;
+    font-weight : bold;
+}
+
+h1 {
+    border : 5px solid rgb(255, 135, 90);
+    background-color: rgb(255, 135, 90);
+}
+
