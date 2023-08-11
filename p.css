@@ -19,5 +19,22 @@ img{
     height: 140px;
     border: lid lavenderblush;
 }
-       
-
+h2 {
+    color : rgb(108, 7, 171);
+    font-weight : bold;
+    font: size 100px; ;
+}
+h4 {
+    color : rgb(72, 141, 244);
+    font-weight : bold;
+    font: size 100px; ;
+} 
+h3 {
+    color : rgb(2, 27, 68);
+    font-weight : bold;
+    font: size 100px; ;
+}             
+footer {
+    background-color:rgb(225, 170, 241);
+    height: 100px;
+}
