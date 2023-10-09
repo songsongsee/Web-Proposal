@@ -1,0 +1,6 @@
+class InputForm(forms.form):
+
+    first_name = form.CharField(max_length = 200)
+    last_name = form.Charfield(max_length = 200)
+    rool_number = form.IntegerField(help_text = "Enter 6 digit roll number")
+    password = form.Charfield(widget = forms.PasswordInput())
