@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+img {
+    width: 115px;
+    height: auto;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5f5c5a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__link {
+    list-style: none;
+}
+
+.nav__link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__link li a {
+    transition: all 0.3s ease 0%;
+}
+
+.nav__link li a:hover {
+    color: #e37e20;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #e37e20;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #c86a13;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calendar {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#currentMonth {
+    font-size: 1.5rem;
+}
+
+button1 {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.day {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day-cell {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.current-day {
+    background-color: #007BFF;
+    color: #fff;
+}
