@@ -1,8 +1,12 @@
 // ข้อมูลเกี่ยวกับห้องเรียน
 const rooms = [
-    { id: 1, name: "ห้อง A", status: "ว่าง" },
-    { id: 2, name: "ห้อง B", status: "ว่าง" },
-    { id: 3, name: "ห้อง C", status: "ว่าง" },
+    { id: 1, name: "ห้อง 122", status: "ว่าง" },
+    { id: 2, name: "ห้อง 140", status: "ว่าง" },
+    { id: 3, name: "ห้อง 539", status: "ว่าง" },
+    { id: 4, name: "ห้อง 542", status: "ว่าง" },
+    { id: 5, name: "ห้อง 543", status: "ว่าง" },
+    { id: 6, name: "ห้อง COM-EE", status: "ว่าง" },
+    { id: 7, name: "ห้อง LEC-EE", status: "ว่าง" },
 ];
 
 // ฟังก์ชันสำหรับแสดงตารางห้องเรียน
